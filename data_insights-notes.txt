@@ -1,0 +1,13 @@
+For the entire us nation the data is only complete up to 2023-03-23
+
+total cases 2020 was 20024801
+total deaths 2020 was 346050
+
+total cases 2021 was 34664566
+total deaths 2021 was 478286
+
+total cases 2022 was 45772817
+totcal deaths 2022 was 275501
+
+total cases up to march 23rd 2023 is 3447850
+total deatsh up to march 23rd 2023 is 35506

@@ -1,0 +1,1 @@
+CREATE DATABASE covid_19_data;

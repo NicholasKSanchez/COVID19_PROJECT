@@ -1,0 +1,53 @@
+/*
+\copy us FROM 'C:\Users\sancn\Developer\Covid19_Project\covid-19-data\us.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+\copy us_states FROM 'C:\Users\sancn\Developer\Covid19_Project\covid-19-data\us-states.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+\copy us_counties FROM 'C:\Users\sancn\Developer\Covid19_Project\covid-19-data\us-counties.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+\copy us_counties_recent FROM 'C:\Users\sancn\Developer\Covid19_Project\covid-19-data\us-counties-recent.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+\copy us_counties_2023 FROM 'C:\Users\sancn\Developer\Covid19_Project\covid-19-data\us-counties-2023.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+\copy us_counties_2022 FROM 'C:\Users\sancn\Developer\Covid19_Project\covid-19-data\us-counties-2022.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+\copy us_counties_2021 FROM 'C:\Users\sancn\Developer\Covid19_Project\covid-19-data\us-counties-2021.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+\copy us_counties_2020 FROM 'C:\Users\sancn\Developer\Covid19_Project\covid-19-data\us-counties-2020.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+*/
+
+COPY us
+FROM 'C:\Users\sancn\Developer\Covid19_Project\covid-19-data\us.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+SELECT *
+FROM
+us
+
+SELECT *
+FROM
+us_states
+
+SELECT *
+FROM
+us_counties
+
+SELECT *
+FROM
+us_counties_recent
+
+SELECT *
+FROM
+us_counties_2020
+
+SELECT *
+FROM
+us_counties_2021
+
+SELECT *
+FROM
+us_counties_2022
+
+SELECT *
+FROM
+us_counties_2023
